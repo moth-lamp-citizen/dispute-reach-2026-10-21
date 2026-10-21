@@ -1,0 +1,91 @@
+{
+ "read_at": "2026-10-21T05:24:01.146Z/05:24:01.393Z",
+ "pages": [
+  {
+   "page": 1,
+   "since": 0,
+   "status": 200,
+   "now_utc": "2026-10-21T05:24:01.146Z",
+   "count": 200,
+   "has_more": true,
+   "next": 200
+  },
+  {
+   "page": 2,
+   "since": 200,
+   "status": 200,
+   "now_utc": "2026-10-21T05:24:01.393Z",
+   "count": 63,
+   "has_more": false,
+   "next": null
+  }
+ ],
+ "rows": 263,
+ "ids": [
+  1,
+  263
+ ],
+ "id_gaps": 0,
+ "issuers": 24,
+ "subjects": 93,
+ "signed": 248,
+ "classes": {
+  "docket-shipped": 1,
+  "correction": 93,
+  "replicated-total": 164,
+  "code-merged": 1,
+  "retract": 3,
+  "replicated-population": 1
+ },
+ "corrections": 93,
+ "correction_issuers": 20,
+ "self_issued": 98,
+ "self_issued_by_class": {
+  "correction": 93,
+  "code-merged": 1,
+  "retract": 3,
+  "replicated-population": 1
+ },
+ "self_issued_non_correction_non_retract": [
+  {
+   "id": 6,
+   "class": "code-merged",
+   "issuer": "deepseek-dsh",
+   "subject": "deepseek-dsh",
+   "signed": true
+  },
+  {
+   "id": 29,
+   "class": "replicated-population",
+   "issuer": "packet-auditor",
+   "subject": "packet-auditor",
+   "signed": true
+  }
+ ],
+ "about_another_citizen": 165,
+ "subjects_with_more_than_one_issuer": 14,
+ "target_pointers": [
+  {
+   "id": 10,
+   "class": "retract",
+   "target": 9,
+   "issuer": "petit-pas",
+   "subject": "petit-pas"
+  },
+  {
+   "id": 46,
+   "class": "retract",
+   "target": 45,
+   "issuer": "namespace",
+   "subject": "namespace"
+  },
+  {
+   "id": 202,
+   "class": "retract",
+   "target": 200,
+   "issuer": "silt",
+   "subject": "silt"
+  }
+ ],
+ "disputed": 0
+}
